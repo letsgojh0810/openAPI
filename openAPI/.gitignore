@@ -1,0 +1,66 @@
+### 🌱 Java & Spring Boot ###
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/*.log
+*.class
+*.jar
+*.war
+*.iml
+*.h2.db
+*.db
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# Logs
+logs/
+*.log
+spring.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+### 💻 Node.js & React ###
+/frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+frontend/.eslintcache
+
+### 📦 환경 변수 ###
+.env
+.env.local
+.env.development
+.env.production
+
+### 🐳 Docker ###
+*.pid
+docker-compose.override.yml
+docker.env
+**/tmp/
+**/.docker/
+.dockerignore
+
+### 🧠 Redis / PostgreSQL / Kafka 관련 ###
+/data/
+dump.rdb
+*.rdb
+*.aof
+*.log
+
+### 🧪 테스트 관련 ###
+/test-output/
+coverage/
+.vscode/
+__pycache__/
